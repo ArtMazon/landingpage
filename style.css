@@ -164,6 +164,8 @@
 }
 .information_text{
     color: #1f2937;
+    width: 200px;
+    text-align: center;
 }
 
 .information_image{
