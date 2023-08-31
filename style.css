@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-color: red;
+
+}
+
+.menu_container, .image_bloc_container,.information_container,.quote_container,.action_container{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.menu,.image_bloc  {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action{
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+.action_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information,.quote{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.links_menu_container{
+    display: flex;
+
+}
+
+.links_menu{
+    display: flex;
+    gap: 20px;
+}
+
+.image_text,.image_space{
+    display: flex;
+    flex: 1;
+}
+
+.image_text{
+    flex-direction: column;
+    
+}
+
+.image_text div{
+    padding: 10px;
+}
+
+.image_space{
+    justify-content: center;
+    align-items: center;
+}
+
+.information_displayer{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.information_title{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.information_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+}
+
+.information_image{
+    width: 200px;
+    height: 200px;
+    border-color: blue;
+}
+
+.quote{
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.quote div{
+    width: 800px;
+}
+.quote_author{
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
